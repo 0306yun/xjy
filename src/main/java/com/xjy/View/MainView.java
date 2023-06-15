@@ -127,7 +127,7 @@ public class MainView {
         UserService.deleteUser(deleteUserInfo);
     }
 
-    //    编辑用户
+    //    编辑用户信息
     public static void updateUserView() {
         Print.print("请输入要修改信息的用户名");
         String existUserName = sc.nextLine();
